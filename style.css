@@ -1,0 +1,84 @@
+body {
+  min-height: 2000;
+}
+
+.navbar {
+  background-color: #f8f8ff;
+}
+
+.navbar-brand img {
+  max-width: 150px;
+  max-height: 50px;
+  height: auto;
+  margin-right: 40px;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 25px;
+  font-weight: bold;
+}
+
+.navbar-actions {
+  display: flex;
+  max-width: 300px;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.btn.btn-outline-primary {
+  background-color: #ffffff;
+  color: #000;
+  border-color: #000;
+  border-radius: 0%;
+  color: #86cdcd;
+}
+
+.btn.btn-outline-primary:hover {
+  background-color: #86cdcd;
+  color: #ffffff;
+  border-color: #000;
+}
+
+.btn.btn-outline-info {
+  background-color: #bae8e8;
+  color: #ffffff;
+  border-color: #000;
+  border-radius: 0%;
+}
+
+.btn.btn-outline-info:hover {
+  background-color: #86cdcd;
+  color: #000;
+  border-color: #000;
+}
+
+#about {
+  padding-top: 10rem;
+  text-align: center;
+}
+
+#text-about {
+  margin-top: 10%;
+}
+
+#text-about button {
+  margin-top: 20px;
+  margin-right: 220px;
+}
+
+#video {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#video video {
+  width: 80%;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
